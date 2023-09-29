@@ -80,19 +80,6 @@ No identifier specified for entity: com.jitu.hibernate.Student
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //get()->This egar initilizer,when u call this method first its check chache memory if its there then return other wise later will check DB if DB itself not rthere then its return null object.
 	    Student student = (Student)session.get(Student.class, 104);
 		Student student1 = (Student)session.get(Student.class, 102);
